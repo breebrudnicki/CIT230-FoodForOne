@@ -1,0 +1,111 @@
+/*Basic Heading Styles*/
+table,
+td,
+th {
+    border: 1px solid gray;
+}
+
+h1 {
+    color: #0063c3;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h3 {
+    color: #1f1f1f;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h4,
+p,
+ul,
+table{
+    color: #1f1f1f;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/*Header*/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+header img {
+  height: 120px;
+}
+
+/*Navigation Bar*/
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+nav ul {
+  list-style: none;
+
+}
+nav > ul > li {
+  flex-grow: 1;
+  float: left;
+  text-align: center;
+}
+nav li > ul {
+    position: absolute;
+    display: none;
+}
+nav > ul > li:hover > ul {
+    display: block;
+}
+nav a {
+  display: block;
+  padding: 20px;
+  background: #0083ff;
+  color: #d9d9d9;
+  text-decoration: none;
+}
+nav a:hover {
+  background: #0083ff;
+  color: #fff;
+}
+
+nav a:active {
+  background-color: #0063c6;
+  color: #d9d9d9;
+}
+
+/*Page Styles*/
+body {
+    width: 900px;
+    margin: auto;
+}
+
+/*Image Styling*/
+
+.mainphoto {
+    width: 100%;
+}
+
+.mediumphoto {
+    width: 33%;
+}
+
+.icon1 {
+    float: left;
+    width: 25%;
+    margin: auto;
+}
+.icon2 {
+    float: left;
+    width: 20%;
+    margin: auto;
+}
+
+.tall {
+    width: 300px;
+}
+
+.long {
+    height: 300px;
+}
